@@ -9,7 +9,7 @@ for i in str:
 
 print(rev_str)
 
-print("----Reverse string with same word----")
+print("----Reverse sentence with same word----")
 
 inp = "Python and data science"
 

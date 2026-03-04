@@ -14,3 +14,28 @@ print("--Print list in reverse order--")
 for i in list1[::-1]:
     print(i)
 
+
+ls = ["Om", 10, 20, "A+", 10]
+
+ls.append("Lokare")
+print(ls)
+
+ls.extend(["Hi", 100])
+print(ls)
+
+ls.insert(0,"Hello")
+print(ls)
+
+ls.pop()
+print(ls)
+
+ls.pop(6)
+print(ls)
+
+ls.remove("Hi")
+print(ls)
+
+ls.reverse()
+print(ls)
+
+print(ls.count(10))

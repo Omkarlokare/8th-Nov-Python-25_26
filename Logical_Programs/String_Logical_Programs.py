@@ -17,25 +17,25 @@
 
 # WAP to find duplicates in a string
 
-# inp = input("Enter a String: ")
-#
-# # inp = inp.lower()
+inp = input("Enter a String: ")
+
+# inp = inp.lower()
 # inp = inp.upper()
-#
+
 # inp = inp.replace(" ","")
-#
-# dup = {}
-#
-# for i in inp:
-#     if i in dup:
-#         dup[i]=dup[i]+1
-#     else:
-#         dup[i]=1
-# print("Duplicates are: ")
-# for i in dup:
-#     if dup[i]>1:
-#         print(i,end=" ")
-# print()
+
+dup = {}
+
+for i in inp:
+    if i in dup:
+        dup[i]=dup[i]+1
+    else:
+        dup[i]=1
+print("Duplicates are: ")
+for i in dup:
+    if dup[i]>1:
+        print(i,end=" ")
+
 # print("----------------------")
 
 
